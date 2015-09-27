@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-coffeelint": "^0.5.0"
+    "gulp-coffeelint": "^0.5.0",
+    "mocha": "^2.3.3"
   }
 }
