@@ -11,7 +11,4 @@ gulp.task('lint', function() {
 
 gulp.task('default', function() {
   gulp.start('lint');
-  gulp.watch(files, function(evt) {
-    gulp.start('lint');
-  });
 });
